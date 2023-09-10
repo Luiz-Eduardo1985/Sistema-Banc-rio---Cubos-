@@ -65,7 +65,7 @@ lemrando que todos os campos devem estar no corpo da requisição e preenchidos.
 
 ✅Nessa ultima requisição que criaremos no insomnia, vamos utilizar a URL: http://localhost:3000/contas/extrato?numero_conta=1&senha=12345 , para imprimir o extrato, então vamos criar com o verbo "GET", e com nome "imprimir extrato", e assim como na requisição anterior, numero_conta e senha devem ser informados no URL, lembre-se que só é possivel imprimir um extrato de uma conta existente, e seguindo todos os passos acima, devemos obter um resultado no insonia, semelhante a esse:
 
-<img src=""C:\Users\luize\OneDrive\Área de Trabalho\cubos\modulo2\desafio-backend-modulo-02-sistema-bancario-b2b-ifood-t07\insomnia.png"">
+<img src="\desafio-backend-modulo-02-sistema-bancario-b2b-ifood-t07\insomnia.png">
 
  	
 
