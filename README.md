@@ -31,7 +31,7 @@ Repare que essa requisição serve para atualizar os dados da conta numero "1"(a
 Utilizando o mesmo formato do corpo da requisição anterios (criar conta), atualize os dados que achar necessario.
 lemrando que todos os campos devem estar no corpo da requisição e preenchidos.
 
-✅
+✅Proximo passo e criar uma requisição que exclui um conta, para isso , utilize o verbo "DELETE", chame de deletar conta e coloque o URL http://localhost:3000/contas/1 , atenção que para exluir essa conta o saldo precisa ser zerado, e o numero da conta a ser exluida , nesse caso e "1", caso queira excluir outra conta , mudo no URL.
 
 ✅
 
