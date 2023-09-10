@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-Bibliotecas utilizadas : express , date-fns
+Bibliotecas utilizadas : express , date-fns , nodemon
 
 ![](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
 
@@ -14,9 +14,8 @@ Bibliotecas utilizadas : express , date-fns
 
 ✅Para testar você precisa ter o Insomnia instalado.<br>
 Primeiro passo e fazer o fork ou clonar esse repositória para o seu github.<br>
-OBS. os valores utilizado sao em centavos.<br>
 Recomendamos instalar o nodemon como dependência de desenvolvimento para falicitar a utilização.<br>
-
+OBS. os valores utilizado sao em centavos.<br>
 
 ✅no Insomnia crie um requisição chamada "criar conta", utilizando o verbo POST com o seguinte URL http://localhost:3000/contas?senha_banco=Cubos123Bank.
  coloque no corpo da requisição as seguites informaçõe. (selecione o formato JSON).<br>
@@ -62,9 +61,10 @@ lemrando que todos os campos devem estar no corpo da requisição e preenchidos.
 	"senha": "12345"<br>
 }</code><br>
 
-✅
+✅Vamos criar uma requisição para consultar saldo de uma conta de sua escolha, nesse caso vamos utilizar o verbo "GET", vamos chamar de "consultar saldo",  e na URL com esse endereço: http://localhost:3000/contas/saldo?numero_conta=1&senha=12345 , repare que nesse caso o que vai na URL depois de numero_conta e a conta a qual a consulta será feita, e também a senha, que precisa ser a mesma que foi utilizada na criação da conta.
 
-✅
+✅Nessa ultima requisição que criaremos no insomnia, vamos utilizar a URL: http://localhost:3000/contas/extrato?numero_conta=1&senha=12345 , para imprimir o extrato, então vamos criar com o verbo "GET", e com nome "imprimir extrato", e assim como na requisição anterior, numero_conta e senha devem ser informados no URL, lembre-se que só é possivel imprimir um extrato de uma conta existente, e seguindo todos os passos acima, devemos obter um resultado no insonia, semelhante a esse:
+
 
 ✅
 
