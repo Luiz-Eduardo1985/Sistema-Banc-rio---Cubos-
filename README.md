@@ -14,16 +14,27 @@ Bibliotecas utilizadas : express , date-fns
 
 ✅Para testar você precisa ter o Insomnia instalado.
 
-✅No Insomnia crie um requisição utilizando o verbo POST com o seguinte URL http://localhost:3000/contas?senha_banco=Cubos123Bank.
+✅no Insomnia crie um requisição chamada "criar conta", utilizando o verbo POST com o seguinte URL http://localhost:3000/contas?senha_banco=Cubos123Bank.
  coloque no corpo da requisição as seguites informaçõe. (selecione o formato JSON).<br>
  <code>{<br>
- "nome": "Foo Bar 3", <br>
- "cpf": "101122234",<br>
+ "nome": "Foo Bar", <br>
+ "cpf": "00011122233",<br>
  "data_nascimento": "2021-03-15",<br>
  "telefone": "71999998888",<br>
- "email": "1foo@b430.com",<br>
+ "email":"foo@bar.com",<br>
  "senha": "12345"<br>
 }<br></code>
+Pronto, assim terá uma conta criada, altere o valor dos campos CPF, email para criar outra conta.
+
+✅utilizando o verbo PUT, uma nova requisição chame de "atualizar dados" e coloque a seguinte url http://localhost:3000/contas/1/usuario.
+Repare que essa requisição serve para atualizar os dados da conta numero "1"(a primeira que foi criada).
+Utilizando o mesmo formato do corpo da requisição anterios (criar conta), atualize os dados que achar necessario.
+lemrando que todos os campos devem estar no corpo da requisição e preenchidos.
+
+✅
+
+✅
+
 
 
  
