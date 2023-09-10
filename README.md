@@ -67,6 +67,5 @@ lemrando que todos os campos devem estar no corpo da requisição e preenchidos.
 
 <img src="\insomnia.png">
 
- 	![insomnia](https://github.com/Luiz-Eduardo1985/Sistema-Bancario-Cubos/assets/130876256/63f4516e-07bb-41c9-a144-5e016f6e9521)
 
 
