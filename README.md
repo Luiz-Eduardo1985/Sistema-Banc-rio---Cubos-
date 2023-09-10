@@ -12,8 +12,10 @@ Bibliotecas utilizadas : express , date-fns
 
 ## ⚙️ Passo a passo.
 
-✅Para testar você precisa ter o Insomnia instalado.
-Primeiro passo e fazer o fork ou clonar esse repositória para o seu github.
+✅Para testar você precisa ter o Insomnia instalado.<br>
+Primeiro passo e fazer o fork ou clonar esse repositória para o seu github.<br>
+OBS. os valores utilizado sao em centavos.<br>
+Recomendamos instalar o nodemon como dependência de desenvolvimento para falicitar a utilização.<br>
 
 
 ✅no Insomnia crie um requisição chamada "criar conta", utilizando o verbo POST com o seguinte URL http://localhost:3000/contas?senha_banco=Cubos123Bank.
@@ -43,13 +45,24 @@ lemrando que todos os campos devem estar no corpo da requisição e preenchidos.
 	"valor": 1900<br>
 }</code><br>
 
-✅Para essa requisição de "sacar", crie com o verbo "POST" nomeie adequadamente ,e na URL : http://localhost:3000/transacoes/sacar, e no corpo, sempre utulizando JSON, coloque os dados:<br>
+✅Para essa requisição de "sacar", crie com o verbo "POST" nomeie adequadamente ,e na URL : http://localhost:3000/transacoes/sacar, no corpo, sempre utulizando JSON, coloque os dados a seguir, para sacar 300(centavos) da conta "1", por exemplo. <br>
 
 <code>{<br>
 	"numero_conta": "1",<br>
 	"valor": 300,<br>
     "senha": "12345"<br>
 }</code><br>
+
+✅A proxima transação refere-se a transferir valores entre contas existentes nesse sistema, para isso crie um requisição  utilizando o verbo "POST", chame de "transferencia" e na URL use o endereço: http://localhost:3000/transacoes/transferir, o no corpo coloque os dados a seguir:<br>
+
+<code>{<br>
+	"numero_conta_origem": "1",<br>
+	"numero_conta_destino": "2",<br>
+	"valor": 300,<br>
+	"senha": "12345"<br>
+}</code><br>
+
+✅
 
 ✅
 
