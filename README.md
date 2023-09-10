@@ -68,4 +68,5 @@ lemrando que todos os campos devem estar no corpo da requisição e preenchidos.
 <img src="\insomnia.png">
 
 
+### ✅pronto, agora você já consegue testar todas funcionalides.
 
