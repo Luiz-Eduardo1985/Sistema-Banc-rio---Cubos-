@@ -10,5 +10,8 @@ Bibliotecas utilizadas : express , date-fns
 
 ![](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
 
+## ⚙️ Passo a passo.
+Para testar você precisa ter o Insomnia instalado.
 
+ 
 
